@@ -1,0 +1,1 @@
+((Get-Content -path .\testreplace.txt -Raw) -replace 'TRUE', 'FALSE') | Set-Content -Path .\testreplace.txt
